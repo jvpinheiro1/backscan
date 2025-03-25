@@ -25,7 +25,7 @@
       console.log("Longitude: " + longitude);
 
       // Envia a localização para o backend
-      fetch("NGROK-SERVER/send-location", {
+      fetch("https://a001-201-91-251-42.ngrok-free.app/send-location", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
